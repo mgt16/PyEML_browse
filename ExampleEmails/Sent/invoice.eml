@@ -1,0 +1,21 @@
+From: you@local.test
+To: billing@example.com
+Subject: Invoice #1042
+Date: Tue, 12 Mar 2024 16:40:00 +0000
+Message-ID: <sent-002@local.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="inv"
+
+--inv
+Content-Type: text/plain; charset="utf-8"
+
+Invoice attached for your records.
+
+--inv
+Content-Type: application/pdf; name="invoice-1042.pdf"
+Content-Disposition: attachment; filename="invoice-1042.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQK
+
+--inv--

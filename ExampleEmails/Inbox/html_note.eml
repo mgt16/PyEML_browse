@@ -1,0 +1,17 @@
+From: Html Demo <noreply@example.com>
+To: you@local.test
+Subject: Multipart HTML note
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="altb"
+
+--altb
+Content-Type: text/plain; charset="utf-8"
+
+Plain fallback line.
+
+--altb
+Content-Type: text/html; charset="utf-8"
+
+<html><body><p>Hello <b>rendered</b> email.</p><p><a href="https://example.com">Example link</a></p></body></html>
+
+--altb--

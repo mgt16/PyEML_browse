@@ -1,0 +1,9 @@
+From: Alice Example <alice@example.com>
+To: you@local.test
+Subject: Welcome to the test inbox
+Date: Mon, 15 Jan 2024 09:30:00 +0000
+Message-ID: <welcome-001@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+This is a plain-text message in the Inbox folder for GUI testing.

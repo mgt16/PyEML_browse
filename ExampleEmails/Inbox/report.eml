@@ -1,0 +1,21 @@
+From: Reports Bot <reports@example.com>
+To: you@local.test
+Subject: Weekly summary
+Date: Wed, 7 Feb 2024 14:22:10 +0000
+Message-ID: <report-002@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+Please find the summary attached.
+
+--b1
+Content-Type: text/plain; name="summary.txt"
+Content-Disposition: attachment; filename="summary.txt"
+Content-Transfer-Encoding: base64
+
+U3VtbWFyeSBkYXRhIGZvciB0ZXN0aW5nLg==
+
+--b1--
